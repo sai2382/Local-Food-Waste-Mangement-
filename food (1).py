@@ -27,8 +27,6 @@ providers
 # In[43]:
 
 
-import mysql.connector as p
-print("Connector works!")
 
 
 # In[54]:
@@ -220,5 +218,6 @@ get_ipython().run_cell_magic('writefile', 'app2.py', 'import streamlit as st\nim
 
 
 get_ipython().system('streamlit run app2.py')
+
 
 
