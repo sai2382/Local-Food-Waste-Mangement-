@@ -6,7 +6,7 @@
 
 import pandas as pd
 
-
+pip install mysql-connector
 
 # In[42]:
 
@@ -625,6 +625,7 @@ elif page == "Creator Info":
 
 
 #get_ipython().system('streamlit run app2.py')
+
 
 
 
