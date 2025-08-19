@@ -1,5 +1,6 @@
+mysql-connector-python
 streamlit
 pandas
-pymysql
 matplotlib
 seaborn
+
