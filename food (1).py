@@ -35,10 +35,10 @@ providers
 import mysql.connector
 
 conn =  mysql.connector.connect(
-        host="database-1.cpkqo4u2gjbr.eu-north-1.rds.amazonaws.com",
+        host="database-3.cpkqo4u2gjbr.eu-north-1.rds.amazonaws.com",
         user="admin",
         password="Sai2002123",
-        database="database-1",
+        database="database3",
         port=3306
     )
 
@@ -53,14 +53,14 @@ for db in cursor:
 # In[55]:
 
 
-cursor.execute("CREATE DATABASE IF NOT EXISTS database-1")
-print("MySQL database 'food_data' created successfully!")
+cursor.execute("CREATE DATABASE IF NOT EXISTS database3")
+print("MySQL database 'database3' created successfully!")
 
 
 # In[56]:
 
 
-cursor.execute("use database-1")
+cursor.execute("use database3")
 
 
 # In[47]:
@@ -224,10 +224,10 @@ import mysql.connector
 # -----------------------------
 def get_connection():
     return mysql.connector.connect(
-        host="database-1.cpkqo4u2gjbr.eu-north-1.rds.amazonaws.com",
+        host="database-3.cpkqo4u2gjbr.eu-north-1.rds.amazonaws.com",
         user="admin",
         password="Sai2002123",
-        database="database-1",
+        database="database3",
         port=3306
 
     )
